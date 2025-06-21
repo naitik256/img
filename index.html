@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Stopwatch</title>
+  <meta name="description" content="Track your study time automatically using body posture. BlazePose and FaceMesh detect if you're truly focused." />
+  <meta name="keywords" content="study stopwatch, productivity tracker, posture detection, AI study, blaze pose, face mesh" />
+  <meta name="author" content="Naitik Raj" />
+  <meta name="google-site-verification" content="ox9kqWc097FcTWUzQjOYE5MqM2EWQwfmrO3SJX5bDfo" />
+  <meta name="monetag" content="d6bce2b76dc832aa2baec75a24cb8164" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    div[style*="width: 300px"] {
+      margin: 0 auto;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    #container-1f64a613ed33250ec7eaa8fa873e3a72 {
+      width: 100%;
+      overflow-x: hidden;
+      text-align: center;
+    }
+    @media screen and (max-width: 768px) {
+      h1 { font-size: 1.6em; }
+      #stopwatch { font-size: 2em; }
+      .controls button { font-size: 1em; }
+      .info-section { padding: 10px; font-size: 0.9em; }
+    }
+
+    /* 🔻 Slideshow Styles */
+    .slideshow-container {
+      max-width: 600px;
+      margin: 30px auto;
+      position: relative;
+    }
+
+    .slide {
+      display: none;
+    }
+
+    .slide img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .fade {
+      animation: fadeEffect 1s ease-in-out;
+    }
+
+    @keyframes fadeEffect {
+      from { opacity: 0.4 }
+      to { opacity: 1 }
+    }
+  </style>
+
+  <!-- 🔧 MediaPipe -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose@0.5/pose.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh@0.4/face_mesh.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script defer src="script.js"></script>
+
+  <!-- 🔝 Ad 2 - Top Banner -->
+  <script type='text/javascript' src='//pl26771621.profitableratecpm.com/d7/5d/fd/d75dfdf50cb14a0139d86bbf2a1ce578.js'></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Study Stopwatch</h1>
+
+    <!-- ⬇️ Ad 3 - Below Header -->
+    <script async="async" data-cfasync="false" src="//pl26771609.profitableratecpm.com/1f64a613ed33250ec7eaa8fa873e3a72/invoke.js"></script>
+    <div id="container-1f64a613ed33250ec7eaa8fa873e3a72"></div>
+
+    <div id="stopwatch">00:00:00</div>
+
+    <div class="controls">
+      <button id="reset">Reset</button>
+    </div>
+
+    <div id="status">Loading...</div>
+
+    <!-- ⬇️ Ad 4 - Iframe Ad -->
+    <div style="margin: 20px 0;">
+      <script type="text/javascript">
+        atOptions = {
+          'key': 'b6542e3e0be62239d9c3c174042347cb',
+          'format': 'iframe',
+          'height': 250,
+          'width': 300,
+          'params': {}
+        };
+      </script>
+      <script type="text/javascript" src="//www.highperformanceformat.com/b6542e3e0be62239d9c3c174042347cb/invoke.js"></script>
+    </div>
+
+    <div class="report">
+      <h3>Daily Report</h3>
+      <ul id="daily-report"></ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      <a href="#about">About</a> |
+      <a href="#privacy">Privacy Policy</a> |
+      <a href="mailto:rajnaitik620@gmail.com">Contact</a> |
+      <a href="https://www.instagram.com/naitik_156_?igsh=bTl6NmgzOGI3OWQy" target="_blank">Instagram</a>
+    </p>
+  </footer>
+
+  <div id="about" class="info-section">
+    <h3>About</h3>
+    <p>This app uses BlazePose and FaceMesh to detect your writing posture and face direction in real-time. The timer runs only when you are actively focused on studying.</p>
+  </div>
+
+  <!-- 🔻 NEW: Slideshow Section -->
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="img1.jpg" alt="Photo 1">
+    </div>
+
+    <!-- Future Photos -->
+    <div class="slide fade" style="display: none;">
+      <img src="img2.jpg" alt="Photo 2">
+    </div>
+    <div class="slide fade" style="display: none;">
+      <img src="img3.jpg" alt="Photo 3">
+    </div>
+    <div class="slide fade" style="display: none;">
+      <img src="img4.jpg" alt="Photo 4">
+    </div>
+    <div class="slide fade" style="display: none;">
+      <img src="img5.jpg" alt="Photo 5">
+    </div>
+    <div class="slide fade" style="display: none;">
+      <img src="img6.jpg" alt="Photo 6">
+    </div>
+    <div class="slide fade" style="display: none;">
+      <img src="img7.jpg" alt="Photo 7">
+    </div>
+    <div class="slide fade" style="display: none;">
+      <img src="img8.jpg" alt="Photo 8">
+    </div>
+    <div class="slide fade" style="display: none;">
+      <img src="img9.jpg" alt="Photo 9">
+    </div>
+    <div class="slide fade" style="display: none;">
+      <img src="img10.jpg" alt="Photo 10">
+    </div>
+  </div>
+
+  <div id="privacy" class="info-section">
+    <h3>Privacy Policy</h3>
+    <p>This app runs in your browser. Camera feed kahin bhi send ya store nahi hoti.</p>
+  </div>
+
+  <!-- 🔚 Ad 1 - Floating Social Bar -->
+  <script type='text/javascript' src='//pl26771534.profitableratecpm.com/6f/c0/58/6fc0584fe34b8dda88b588c224250066.js'></script>
+
+  <!-- 🔻 Slideshow Script -->
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("slide");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 3000); // Change every 3 seconds
+    }
+  </script>
+</body>
+</html>
